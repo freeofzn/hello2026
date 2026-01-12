@@ -2,8 +2,8 @@ name: Keep Render Server Awake
 
 on:
   schedule:
-    # 15분마다 실행 (UTC 기준이라 시간대는 다르지만 간격은 정확합니다)
-    - cron: '*/15 * * * *'
+    # 12분마다 실행 (UTC 기준이라 시간대는 다르지만 간격은 정확합니다)
+    - cron: '*/12 * * * *'
   workflow_dispatch: # 수동으로도 실행 가능하게 버튼 생성
 
 jobs:
